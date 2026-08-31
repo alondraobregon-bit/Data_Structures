@@ -46,4 +46,19 @@ public:
         count--;
         return value;
     }
+
+    T top() {
+        if (front == nullptr) {
+            throw std::underflow_error("Queue esta vacio");
+        }
+        return front->data;
+    }
+
+    bool empty() {
+        return front == nullptr;
+    }
+
+    int size() {
+        return count;
+    }
 };
