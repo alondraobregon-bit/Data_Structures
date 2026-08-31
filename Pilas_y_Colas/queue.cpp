@@ -27,4 +27,23 @@ public:
         }
         count++;
     }
+
+    T pop() {
+        if (front == nullptr) {
+            throw std::underflow_error("Queue esta vacio");
+        }
+        T value = front -> data;
+        if (front == back) {
+            Node<T>* temp = front;
+            front = back = nullptr;
+            delete temp;
+        }
+        else {
+            Node<T>* temp = front;
+            front = front -> next;
+            delete temp;
+        }
+        count--;
+        return value;
+    }
 };
