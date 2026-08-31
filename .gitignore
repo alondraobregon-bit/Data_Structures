@@ -1,0 +1,17 @@
+# Compilados
+*.o
+*.out
+*.exe
+*.obj
+
+# Carpetas de build
+build/
+bin/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# SO
+.DS_Store
