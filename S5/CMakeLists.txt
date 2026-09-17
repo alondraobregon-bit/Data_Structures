@@ -10,4 +10,5 @@ add_executable(S5 A.cpp
         D-corregido.cpp
         F.cpp
         f1.cpp
-        G.cpp)
+        G.cpp
+        Joyas_Piedras.cpp)
