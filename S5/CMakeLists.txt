@@ -15,4 +15,5 @@ add_executable(S5 A.cpp
         registrationsystem.cpp
         prueba.cpp
         HashTable.cpp
-        samedifferences.cpp)
+        samedifferences.cpp
+        romanticglasses.cpp)
