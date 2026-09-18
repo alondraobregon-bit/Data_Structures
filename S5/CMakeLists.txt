@@ -11,4 +11,8 @@ add_executable(S5 A.cpp
         F.cpp
         f1.cpp
         G.cpp
-        Joyas_Piedras.cpp)
+        Joyas_Piedras.cpp
+        registrationsystem.cpp
+        prueba.cpp
+        HashTable.cpp
+        samedifferences.cpp)
