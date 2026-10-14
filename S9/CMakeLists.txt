@@ -3,4 +3,5 @@ project(S9)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(S9 AVL.cpp)
+add_executable(S9 AVL.cpp
+        es_un_avl.cpp)
