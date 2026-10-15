@@ -3,4 +3,5 @@ project(Heaps)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Heaps min_heap.cpp)
+add_executable(Heaps min_heap.cpp
+        max_heap.cpp)
