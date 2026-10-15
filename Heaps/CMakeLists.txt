@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Heaps min_heap.cpp
         max_heap.cpp
-        validacion_de_heap.cpp)
+        validacion_de_heap.cpp
+        construir_heap.cpp)
