@@ -9,4 +9,5 @@ add_executable(S12 main.cpp
         C.cpp
         C.h
         D.cpp
+        candado.cpp
 )
