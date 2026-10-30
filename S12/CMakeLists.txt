@@ -7,4 +7,6 @@ add_executable(S12 main.cpp
         B.cpp
         B.h
         C.cpp
-        C.h)
+        C.h
+        D.cpp
+)
